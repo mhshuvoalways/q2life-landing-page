@@ -1,0 +1,462 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #f5f5f5;
+}
+
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-hover {
+  transition-duration: 0.4s;
+}
+
+.btn-hover:hover {
+  background-color: #800080;
+  color: #ffffff;
+  border: 2px solid #800080;
+}
+
+/* Header start */
+header {
+  margin-left: 83px;
+  margin-right: 103px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 181.96px;
+  margin-top: 30.84px;
+}
+.menu {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+}
+.menu_item {
+  margin-left: 144px;
+  color: #000000;
+}
+/* Header end */
+
+/* Intro start */
+.intro {
+  color: #272a3d;
+  position: relative;
+  margin-left: 135px;
+}
+
+.intro_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin-top: 85px;
+  color: #272a3d;
+  height: 114.32px;
+}
+.intro_description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 43px;
+  color: #272a3d;
+  height: 114.32px;
+}
+
+.employerseeker {
+  display: flex;
+  gap: 52px;
+}
+
+.employerseeker-btn {
+  padding: 9px 52px 10px 53px;
+  border: none;
+  margin-top: 10.75px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.employerseeker-btn_employer {
+  background-color: #00b7ff;
+  border: 2px solid #00b7ff;
+  color: #ffffff;
+}
+
+.employerseeker-btn_job-seeker {
+  background-color: #fed253;
+  border: 2px solid #fed253;
+  color: #272a3d;
+}
+
+.intro_right {
+  position: absolute;
+  right: 31.4px;
+  top: 10%; /*confused*/
+}
+
+/* Intro end */
+
+/* For Job Seekers start */
+.forjobseekers {
+  height: 968.51px;
+  width: 1132.93px;
+  margin-top: 225.36px;
+  margin-left: 49.28px;
+}
+.forjobseekers-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 75px;
+  color: #272a3d;
+  margin-left: 211.94px;
+  height: 75px;
+}
+
+.jobseekers-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 92.38px;
+}
+
+.jobseekerscontent-left {
+  position: relative;
+  width: 469.62px;
+  height: 795.94px;
+  margin-left: 84.45px;
+  margin-top: 43.08px;
+}
+.jobseekerscontent-left-image {
+  width: 469.62px;
+  height: 795.94px;
+}
+
+.jobseekerscontent-left-imageoverlay {
+  position: absolute;
+  top: 54.49px;
+  left: -84.45px;
+  width: 100%;
+  height: 100%;
+  background: rgba(254, 210, 83, 0.29);
+}
+
+.jobseekerscontent-right {
+  margin-top: 106.81px;
+}
+
+.jobseekerscontent-highlighted-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #272a3d;
+  height: 200.18px;
+}
+.jobseekerscontent-des {
+  margin-top: 75.39px;
+  width: 317.7px;
+  height: 359.93px;
+}
+.jobseekerscontent-des-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #272a3d;
+}
+.jobseekerscontent-button {
+  margin-top: 39px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #272a3d;
+  background: #fed253;
+  border: 2px solid #fed253;
+  padding: 15px 68px 15.67px 67px;
+  cursor: pointer;
+  width: 300px;
+  height: 60px;
+}
+/* For Job Seekers end */
+.rightemploy {
+  position: relative;
+}
+.rigtemploy-img {
+  position: absolute;
+  top: -300px;
+  right: 0;
+}
+/* Employer start */
+.employer {
+  width: 925.75px;
+  height: 757.57px;
+  margin: auto;
+  margin-top: 150.58px;
+}
+
+.employer-title {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 75px;
+  color: #272a3d;
+  height: 75px;
+}
+
+.employer-main-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin-top: 48.46px;
+}
+
+.employer-card {
+  width: 262px;
+  height: 386px;
+  background: #ffffff;
+  box-shadow: 0px 0px 41px rgba(173, 173, 173, 0.26);
+  border-radius: 10px;
+}
+
+.employer-photo {
+  width: 248px;
+  height: 248px;
+  padding: 13px 7px 0px 7px;
+}
+
+.employer-photo-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  padding: 22px 23px 11px 23px;
+  color: #272a3d;
+}
+
+.employer-details {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #272a3d;
+  margin-top: 59.39px;
+}
+
+.employer-button {
+  margin-top: 42.37px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #272a3d;
+  background: #00b7ff;
+  border: 2px solid #00b7ff;
+  padding: 15px 68px 15.67px 67px;
+  cursor: pointer;
+  width: 300px;
+  height: 60px;
+}
+/* Employer end */
+
+/* Contact start */
+.contact {
+  height: 579.78px;
+  background: #eefaff;
+  margin-top: 111.15px;
+}
+.contact-content {
+  width: 1010.75px;
+  height: 317px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+.contact-left {
+  margin-top: 116.85px;
+  width: 393px;
+  margin-left: 42.12px;
+}
+.contact-btn {
+  box-shadow: 0px 4px 20px rgba(95, 95, 95, 0.25);
+  width: 260px;
+  height: 45px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.contact-btn-container {
+  display: grid;
+  gap: 35px;
+}
+.success {
+  display: none;
+}
+.success-display {
+  display: flex;
+  align-items: center;
+  margin-top: 140px;
+  gap: 15px;
+  width: 420px;
+  height: 22px;
+}
+
+.success-msg {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #272a3d;
+}
+.contact-employer {
+  background: #00b7ff;
+  color: #ffffff;
+  border: 2px solid #00b7ff;
+  padding: 11.22px 77px 11.78px 76px;
+  margin-top: 33px;
+}
+.contact-job-seeker {
+  background: #fed253;
+  border: 2px solid #fed253;
+  padding: 10.97px 33px 11.52px 33px;
+}
+.contact-left-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+  text-transform: uppercase;
+  color: #272a3d;
+  height: 106px;
+}
+.contact-right {
+  padding-top: 125.08px;
+  width: 617px;
+}
+/* Contact end */
+
+/* Form start */
+.form-employer {
+  display: none;
+}
+.form-jobseekers {
+  display: none;
+}
+
+.contact-form-employer {
+  width: 915px;
+  margin: auto;
+  height: 820px;
+  display: block;
+}
+.contact-form-jobseekers {
+  width: 915px;
+  margin: auto;
+  height: 820px;
+  display: block;
+}
+
+.form-container {
+  display: flex;
+  gap: 30px;
+}
+.form-left {
+  margin-top: 92.5px;
+}
+.form-grp {
+  margin-top: 50px;
+}
+.form-label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #272a3d;
+}
+.control-form {
+  border: 1px solid #efefef;
+  width: 439.83px;
+  height: 40px;
+  padding: 0 10px;
+  margin-top: 10px;
+  border-bottom: 1px solid #272a3d;
+  background: #f5f5f5;
+}
+.form-select {
+  border: 1px solid #efefef;
+  width: 465px;
+  height: 40px;
+  padding: 0 10px;
+  margin-top: 10px;
+  border-bottom: 1px solid #272a3d;
+  background: #f5f5f5;
+  color: #55527e;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+.form-right {
+  margin-top: 395px;
+}
+.form-right-textarea {
+  width: 414px;
+  height: 217px;
+  background: rgba(0, 166, 81, 0.02);
+  border: 1px solid #272a3d;
+  margin-top: 19px;
+}
+.contact-form-right {
+  position: relative;
+  display: none;
+}
+.contact-form-right-display {
+  position: relative;
+  display: block;
+}
+.contact-form-right-img {
+  position: absolute;
+  top: -662px;
+  right: 0;
+}
+/* Form end */
+
+/* Footer start */
+footer {
+  background: #272a3d;
+  color: #ffffff;
+}
+.footer-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 116.5%;
+  height: 41px;
+}
+.footer-container {
+  width: 925.75px;
+  margin: auto;
+  padding: 72.12px 0;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  list-style: inside;
+  margin-top: 10px;
+}
+/* Footer start */
