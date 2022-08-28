@@ -25,6 +25,7 @@ submitEmployerBtn.addEventListener("click", function () {
   setTimeout(function () {
     successMsg.setAttribute("class", "success-display");
     contactFormJobSeeker.setAttribute("class", "form-jobseekers");
+    contactFormRight.setAttribute("class", "contact-form-right");
     contactFormEmploy.setAttribute("class", "form-employer");
   }, 200);
 });
@@ -33,6 +34,7 @@ submitSeekerBtn.addEventListener("click", function () {
   setTimeout(function () {
     successMsg.setAttribute("class", "success-display");
     contactFormJobSeeker.setAttribute("class", "form-jobseekers");
+    contactFormRight.setAttribute("class", "contact-form-right");
     contactFormEmploy.setAttribute("class", "form-employer");
   }, 200);
 });
