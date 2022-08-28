@@ -120,7 +120,7 @@ header {
   font-size: 50px;
   line-height: 75px;
   color: #272a3d;
-  margin-left: 211.94px;
+  margin-left: 211.92px;
   height: 75px;
 }
 
@@ -391,6 +391,12 @@ header {
   margin-top: 10px;
   border-bottom: 1px solid #272a3d;
   background: #f5f5f5;
+}
+.control-form-attach {
+  cursor: pointer;
+}
+.control-form-input {
+  display: none;
 }
 .form-select {
   border: 1px solid #efefef;
